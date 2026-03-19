@@ -1,0 +1,17 @@
+// 35. Input character, check uppercase/lowercase.
+# include <stdio.h>
+int main(){
+    char ch;
+    printf("Enter a Character:-  ");
+    scanf("%c",&ch);
+    if (ch>='a' && ch<='z'){
+        printf("Character is Lowerchase");
+    }
+    else if(ch>='A'&& ch<='Z'){
+        printf("Character is Uppercase");
+    }
+    else {
+        printf("Enter correct character");
+    }
+    return 0;
+}
